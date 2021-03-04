@@ -58,16 +58,24 @@
 		A5EF801825EBF4B500800E0E /* Currency */ = {
 			isa = PBXGroup;
 			children = (
+				A5EF803225F14DF000800E0E /* SupportingFiles */,
 				A5EF801925EBF4B500800E0E /* AppDelegate.swift */,
 				A5EF801B25EBF4B500800E0E /* SceneDelegate.swift */,
 				A5EF801D25EBF4B500800E0E /* ViewController.swift */,
 				A5EF801F25EBF4B500800E0E /* Main.storyboard */,
 				A5EF802225EBF4B700800E0E /* Assets.xcassets */,
 				A5EF802425EBF4B700800E0E /* LaunchScreen.storyboard */,
-				A5EF802725EBF4B700800E0E /* Info.plist */,
 				A5EF802F25F147EB00800E0E /* SecondViewController.swift */,
 			);
 			path = Currency;
+			sourceTree = "<group>";
+		};
+		A5EF803225F14DF000800E0E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A5EF802725EBF4B700800E0E /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Currency/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Currency/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
