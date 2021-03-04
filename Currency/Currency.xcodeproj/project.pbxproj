@@ -59,13 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				A5EF803225F14DF000800E0E /* SupportingFiles */,
-				A5EF801925EBF4B500800E0E /* AppDelegate.swift */,
-				A5EF801B25EBF4B500800E0E /* SceneDelegate.swift */,
-				A5EF801D25EBF4B500800E0E /* ViewController.swift */,
-				A5EF801F25EBF4B500800E0E /* Main.storyboard */,
-				A5EF802225EBF4B700800E0E /* Assets.xcassets */,
-				A5EF802425EBF4B700800E0E /* LaunchScreen.storyboard */,
-				A5EF802F25F147EB00800E0E /* SecondViewController.swift */,
+				A5EF803525F1505700800E0E /* Resources */,
+				A5EF803625F1511700800E0E /* Source */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -76,6 +71,27 @@
 				A5EF802725EBF4B700800E0E /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A5EF803525F1505700800E0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5EF801F25EBF4B500800E0E /* Main.storyboard */,
+				A5EF802225EBF4B700800E0E /* Assets.xcassets */,
+				A5EF802425EBF4B700800E0E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5EF803625F1511700800E0E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A5EF801925EBF4B500800E0E /* AppDelegate.swift */,
+				A5EF801B25EBF4B500800E0E /* SceneDelegate.swift */,
+				A5EF801D25EBF4B500800E0E /* ViewController.swift */,
+				A5EF802F25F147EB00800E0E /* SecondViewController.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
